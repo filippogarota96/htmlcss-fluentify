@@ -43,7 +43,7 @@ header {
   vertical-align: middle;
 }
 .main-nav {
-  width: 40%;
+  width: 41%;
   font-size: 12px;
   float: left;
   margin-top: 30px;
@@ -51,7 +51,7 @@ header {
 .main-nav li {
   display: inline-block;
   list-style: none;
-  padding:  0 2%;
+  padding:  0 1%;
 
 }
 .main-nav a {
@@ -62,8 +62,8 @@ header {
 
 .buttons-nav {
   color: white;
-  width: 40%;
-  font-size: 12px;
+  width: 39%;
+  font-size: 11px;
   float: left;
   margin-top: 30px;
 }
@@ -71,7 +71,7 @@ header {
   display: inline-block;
   list-style: none;
   vertical-align: middle;
-  padding:  0 2%;
+  padding:  0 1%;
 }
 
 .buttons-nav a {
@@ -116,13 +116,19 @@ header {
 
 .title p {
   margin-top: 20px;
-  padding: 10px 20px;
   background-color: #7CBB02;
   display: inline-block;
   border-radius: 5px;
-
+}
+.title a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #7CBB02;
+  color: white;
+  text-decoration: none;
 }
 /* stile header  */
+
 
 
 /* main */
