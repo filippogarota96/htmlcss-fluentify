@@ -9,13 +9,17 @@ body {
 /* stile header  */
 
 header {
-  /* background-image: url('../img/background-header.png'); */
+  background-image: url('../img/background-header.png');
   background-color: #0C325A;
-  /* background-size: 100;
-  background-position: right; */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 70% 80%;
   height: 500px;
-
 }
+
+
+
+
 /* stile della barra di navigazione */
 .container {
   width: 80%;
@@ -98,18 +102,29 @@ header {
   margin: auto;
 }
 
-.titolo-button {
+.title {
   width: 50%;
-  height: 200px;
   position: absolute;
-  background-color: white;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.titolo-button h1 {
   color: white;
 }
+
+.title h1 {
+  font-size: 50px;
+}
+
+.title p {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #7CBB02;
+  display: inline-block;
+  border-radius: 5px;
+
+}
+
+
+
 
 
 
