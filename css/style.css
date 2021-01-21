@@ -3,21 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /* stile header  */
 
 header {
+  /* background-image: url('../img/background-header.png'); */
   background-color: #0C325A;
+  /* background-size: 100;
+  background-position: right; */
   height: 500px;
-}
 
+}
+/* stile della barra di navigazione */
 .container {
   width: 80%;
-  height: 100px;
   margin: auto;
 }
-
-
 
 .clearfix::after {
   display: block;
@@ -25,20 +28,18 @@ header {
   clear: both;
 }
 .logo {
-  /* background-color: red; */
+  vertical-align: middle;
   width: 20%;
   float: left;
-  margin-top: 18px;
+  margin-top: 10px;
 }
 
 .logo img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 .main-nav {
-  width: 45%;
+  width: 40%;
   font-size: 12px;
   float: left;
   margin-top: 30px;
@@ -46,17 +47,18 @@ header {
 .main-nav li {
   display: inline-block;
   list-style: none;
-  padding-top: 2%;
+  padding:  0 2%;
 
 }
 .main-nav a {
   text-decoration: none;
-  padding: 0 10px;
+  color: white;
 }
+
 
 .buttons-nav {
   color: white;
-  width: 35%;
+  width: 40%;
   font-size: 12px;
   float: left;
   margin-top: 30px;
@@ -65,6 +67,7 @@ header {
   display: inline-block;
   list-style: none;
   vertical-align: middle;
+  padding:  0 2%;
 }
 
 .buttons-nav a {
@@ -73,14 +76,24 @@ header {
 }
 
 .login, .piano {
-  padd
+  padding: 10px;
 }
 
+.login {
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.piano {
+  background-color: #7CBB02;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* /stile della barra di navigazione */
 
 
 .box-titolo {
   height: 400px;
-  background-color: purple;
   position: relative;
   margin: auto;
 }
@@ -92,6 +105,10 @@ header {
   background-color: white;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.titolo-button h1 {
+  color: white;
 }
 
 
