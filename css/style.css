@@ -12,11 +12,12 @@ header {
 }
 
 .container {
-  background-color: white;
   width: 80%;
   height: 100px;
   margin: auto;
 }
+
+
 
 .clearfix::after {
   display: block;
@@ -26,7 +27,7 @@ header {
 .logo {
   background-color: red;
   width: 20%;
-  height: 100%;
+  height: 100px;
   float: left;
 }
 
@@ -34,14 +35,32 @@ header {
 .main-nav {
   background-color: green;
   width: 50%;
-  height: 100%;
+  height: 100px;
   float: left;
 }
 
 .buttons-nav {
   background-color: yellow;
   width: 30%;
-  height: 100%;
+  height: 100px;
   float: left;
 }
+
+.box-titolo {
+  height: 400px;
+  background-color: purple;
+  position: relative;
+  margin: auto;
+}
+
+
+.titolo-button {
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /* stile header  */
