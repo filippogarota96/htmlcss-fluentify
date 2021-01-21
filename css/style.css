@@ -25,26 +25,58 @@ header {
   clear: both;
 }
 .logo {
-  background-color: red;
+  /* background-color: red; */
   width: 20%;
-  height: 100px;
   float: left;
+  margin-top: 18px;
+}
+
+.logo img {
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 
 .main-nav {
-  background-color: green;
-  width: 50%;
-  height: 100px;
+  width: 45%;
+  font-size: 12px;
   float: left;
+  margin-top: 30px;
+}
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  padding-top: 2%;
+
+}
+.main-nav a {
+  text-decoration: none;
+  padding: 0 10px;
 }
 
 .buttons-nav {
-  background-color: yellow;
-  width: 30%;
-  height: 100px;
+  color: white;
+  width: 35%;
+  font-size: 12px;
   float: left;
+  margin-top: 30px;
 }
+.buttons-nav li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.buttons-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.login, .piano {
+  padd
+}
+
+
 
 .box-titolo {
   height: 400px;
@@ -52,7 +84,6 @@ header {
   position: relative;
   margin: auto;
 }
-
 
 .titolo-button {
   width: 50%;
@@ -62,5 +93,9 @@ header {
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+
+
 
 /* stile header  */
