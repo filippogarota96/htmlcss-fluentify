@@ -4,6 +4,44 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: red;
+/* stile header  */
+
+header {
+  background-color: #0C325A;
+  height: 500px;
 }
+
+.container {
+  background-color: white;
+  width: 80%;
+  height: 100px;
+  margin: auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.logo {
+  background-color: red;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+
+.main-nav {
+  background-color: green;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.buttons-nav {
+  background-color: yellow;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+/* stile header  */
