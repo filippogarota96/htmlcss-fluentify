@@ -151,12 +151,12 @@ header {
 /* section con immagini e colonne */
 .col {
   width: calc(100% / 3);
-  height: 500px;
   float: left;
   margin-top: 30px;
   text-align: center;
-
 }
+
+
 
 .col-left img, .col-center img, .col-right img {
   max-width: 100%;
@@ -199,5 +199,35 @@ header {
 
 /*/ section con immagini e colonne */
 
+/* section piano personalizzato */
+.box {
+  width: 50%;
+  margin-top: 50px;
+  float: left;
+}
+
+.levels {
+  padding-left: 10%;
+}
+.levels img {
+  width: 100%;
+}
+.test-level {
+  padding-left: 7%;
+  padding-right: 20%;
+}
+.test-level h2 {
+  font-size: 26px;
+}
+.test-level p {
+  margin: 20px 0;
+  color: #808080;
+  font-size: 20px;
+}
+.test-level a {
+  color: #5C8BBF;
+  font-size: 13px;
+}
+/* /section piano personalizzato */
 
 /*/ main */
