@@ -137,15 +137,24 @@ header {
 
 .slogan h2 {
   font-size: 22px;
+
 }
 .slogan p {
   color:#808080;
   margin-top: 10px;
   font-size: 18px;
+  font-weight: 500;
 }
 
 /* /section con slogan */
 
+.col {
+  background-color: green;
+  width: calc(100% / 3);
+  height: 300px;
+  float: left;
+  border: 1px solid black;
+}
 
 
 
