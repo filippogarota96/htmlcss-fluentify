@@ -54,14 +54,12 @@ header {
   text-decoration: none;
   color: white;
 }
-
-
 .buttons-nav {
   color: white;
   width: 39%;
   font-size: 11px;
   float: left;
-  margin-top: 30px;
+  margin-top: 19px;
   text-align: right;
 }
 .buttons-nav li {
@@ -75,23 +73,27 @@ header {
   text-decoration: none;
   color: white;
 }
-
-.login, .piano {
-  padding: 10px;
-}
-
-.login {
-  border: 1px solid white;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-.piano {
+/* tutti i buttons */
+.btn {
   background-color: #7CBB02;
-  padding: 10px;
+  display: inline-block;
   border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+/*tutti i buttons */
+
+#login {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #0C325A;
+}
+
 /* /stile della barra di navigazione */
 
+/* box con il titolo principale */
 .box-titolo {
   height: 400px;
   position: relative;
@@ -122,6 +124,8 @@ header {
   color: white;
   text-decoration: none;
 }
+/* /box con il titolo principale */
+
 /* stile header  */
 
 /* main */
@@ -155,14 +159,10 @@ header {
   text-align: center;
 }
 
-
-
 .col-left img, .col-center img, .col-right img {
   max-width: 100%;
   height: 150px;
-
 }
-
 .col-left {
   padding-left: 9%;
   padding-right: 3%;
@@ -195,10 +195,9 @@ header {
   font-size: 17px;
   color: #808080;
 }
+/*/ sezione con immagini e colonne */
 
-/*/ section con immagini e colonne */
-
-/* section piano personalizzato */
+/*sezione piano personalizzato */
 .box {
   width: 50%;
   margin-top: 50px;
@@ -227,7 +226,8 @@ header {
   color: #5C8BBF;
   font-size: 13px;
 }
-/* /section piano personalizzato */
+/* /sezione piano personalizzato */
+
 /* sezione bottom */
 
 .bottom {
@@ -235,53 +235,45 @@ header {
   margin-top: 20px;
   padding-top: 50px;
   position: relative;
-  height: 140px
+  height: 180px
 }
-
-.bottom-title {
+/* stile bottom sinistra */
+.bottom-left {
   width: 50%;
   float: left;
   padding-left: 10%;
 }
 
-.bottom-title h2 {
-
+.bottom-left h2 {
+  font-size: 26px;
 }
+/* /stile bottom sinistra */
 
-.btn-bottom {
+/* stile bottom destra */
+.bottom-right {
   width: 50%;
   float: left;
   padding-left: 10%;
+  color: #808080;
 }
-
-.btn-bottom p {
+.bottom-right div {
   display: inline-block;
-  padding: 0 2%;
 }
-
+.bottom-right p {
+  display: inline-block;
+  padding: 0 3%;
+}
 #triangle {
   word-spacing: 80px;
   text-decoration: underline;
-
-
 }
-
-.btn {
-  background-color: #7CBB02;
-  padding: 10px 20px;
-  display: inline-block;
-  border-radius: 5px;
-  color: white;
-}
-
 #fixed {
   position: fixed;
   bottom: 0;
-  right: 11%;
+  right: 7%;
+  text-transform: uppercase;
 }
-
-
+/* /stile bottom destra */
 
 /* /sezione bottom */
-
 /*/ main */
