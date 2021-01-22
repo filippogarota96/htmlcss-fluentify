@@ -231,22 +231,57 @@ header {
 /* sezione bottom */
 
 .bottom {
-  background-color: #D3D3D3
+  background-color: #D3D3D3;
+  margin-top: 20px;
+  padding-top: 50px;
+  position: relative;
+  height: 140px
 }
 
 .bottom-title {
   width: 50%;
-  height: 300px;
-  background-color: red;
   float: left;
+  padding-left: 10%;
+}
+
+.bottom-title h2 {
+
 }
 
 .btn-bottom {
   width: 50%;
-  height: 300px;
-  background-color: blue;
   float: left;
+  padding-left: 10%;
 }
+
+.btn-bottom p {
+  display: inline-block;
+  padding: 0 2%;
+}
+
+#triangle {
+  word-spacing: 80px;
+  text-decoration: underline;
+
+
+}
+
+.btn {
+  background-color: #7CBB02;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+}
+
+#fixed {
+  position: fixed;
+  bottom: 0;
+  right: 11%;
+}
+
+
+
 /* /sezione bottom */
 
 /*/ main */
